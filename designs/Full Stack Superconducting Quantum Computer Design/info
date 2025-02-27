@@ -1,0 +1,5 @@
+Superconducting Qubit Layer – Contains transmon qubits, couplers, and resonators.
+Qubit Control Electronics – Generates precise microwave signals for gate operations.
+Quantum Error Correction – Implements redundancy to mitigate decoherence.
+Cryogenic Cooling System – Uses dilution refrigerators (~15mK) to maintain superconductivity.
+Classical Computing Support – Processes data and manages quantum algorithms.
