@@ -1,0 +1,39 @@
+# Superconducting Quantum Computer Materials & Components List
+
+## **1. Quantum Processor Materials**
+- **Substrate:** High-purity sapphire or silicon wafer
+- **Superconducting Material:** Aluminum (Al) or Niobium (Nb)
+- **Josephson Junctions:** Aluminum oxide (Al₂O₃) tunnel barrier
+- **Resonators:** Niobium or superconducting aluminum resonators
+- **Control Lines:** Superconducting coplanar waveguides
+
+## **2. Fabrication Equipment**
+- **Electron Beam Lithography (EBL) System** (for patterning qubits)
+- **Electron Beam Evaporator** (for depositing superconducting films)
+- **Plasma Etcher (RIE/ICP)** (for defining circuits)
+- **Scanning Electron Microscope (SEM)** (for inspection)
+- **Dilution Refrigerator** (millikelvin cooling system)
+- **Cryogenic Shielding** (to block thermal and electromagnetic noise)
+
+## **3. Control & Readout Electronics**
+- **Microwave Generators** (for qubit control pulses)
+- **Arbitrary Waveform Generators (AWG)** (for precise qubit manipulations)
+- **Vector Network Analyzer (VNA)** (for resonance measurements)
+- **Low-Noise Amplifiers (LNA)** (for signal readout)
+- **Cryogenic Attenuators & Filters** (to prevent noise contamination)
+- **High-Speed ADC/DAC Modules** (for qubit state measurements)
+- **Field-Programmable Gate Arrays (FPGA)** (for real-time signal processing)
+
+## **4. Software & Programming**
+- **Qiskit Metal** (for quantum processor design)
+- **Cirq** (Google’s quantum programming framework)
+- **QuTip** (for simulating quantum circuits)
+- **LabVIEW/Python** (for controlling hardware)
+
+## **5. Additional Components**
+- **RF Cables & Connectors** (low-loss superconducting cables)
+- **Cryoperm Magnetic Shielding** (to protect qubits from external fields)
+- **Thermometry Sensors** (to monitor cryogenic temperatures)
+- **Vacuum Pumps & Cryogenic Helium** (for maintaining low temperatures)
+
+# **End of List** Things may be revised 
