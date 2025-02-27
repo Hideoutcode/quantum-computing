@@ -1,0 +1,20 @@
+- **Use:** Creates entanglement between qubits.  
+
+---
+
+## **6. Quantum Error Correction**  
+### **Quantum Parity Check**  
+- **Equation:**  
+|0_L⟩ = (|000⟩ + |111⟩) / √2  
+- **Use:** Encodes logical qubits for fault tolerance.  
+
+### **Surface Code Stabilizers**  
+- **X Stabilizer Equation:**  
+S_X = ∏ (neighbors) X_i  
+- **Z Stabilizer Equation:**  
+S_Z = ∏ (neighbors) Z_i  
+- **Use:** Defines stabilizer operators in error correction.  
+
+---
+
+# **End of List**
