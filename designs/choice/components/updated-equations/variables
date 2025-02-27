@@ -1,0 +1,117 @@
+# Definitions of Variables Used in Superconducting Quantum Processor Build
+
+## **Supercurrent-Phase Relationship (I_s = I_0 * sin(ϕ))**
+1. **I_s** = Supercurrent (the current flowing through the Josephson junction)  
+   - Measured in **Amperes (A)**.
+
+2. **I_0** = Critical current (the maximum supercurrent that can flow through the junction without resistance)  
+   - Measured in **Amperes (A)**.
+
+3. **ϕ** = Phase difference (the phase difference between the superconducting wavefunctions on either side of the junction)  
+   - Measured in **radians (rad)**.
+
+---
+
+## **Josephson Energy (E_J = (ℏ * I_0) / (2 * e))**
+4. **E_J** = Josephson energy (the energy associated with the supercurrent across the junction)  
+   - Measured in **Joules (J)**.
+
+5. **ℏ** = Reduced Planck’s constant (ℏ = h / 2π)  
+   - **ℏ ≈ 1.055 x 10⁻³⁴ J·s**.
+
+6. **e** = Elementary charge (the charge of an electron)  
+   - **e ≈ 1.602 x 10⁻¹⁹ Coulombs (C)**.
+
+---
+
+## **Charging Energy (E_C = (e²) / (2 * C))**
+7. **E_C** = Charging energy (the energy due to the capacitance of the Josephson junction)  
+   - Measured in **Joules (J)**.
+
+8. **C** = Capacitance (the capacitance of the Josephson junction)  
+   - Measured in **Farads (F)**.
+
+---
+
+## **Energy Levels in a Superconducting Qubit (E_eff = E_J - E_C)**
+9. **E_eff** = Effective energy (the effective energy of the qubit state, considering both the Josephson and charging energies)  
+   - Measured in **Joules (J)**.
+
+---
+
+## **Capacitance of Josephson Junction (C ≈ ε₀ * (A / d))**
+10. **ε₀** = Permittivity of free space (the constant that describes the ability of a vacuum to permit electric field lines)  
+    - **ε₀ ≈ 8.85 x 10⁻¹² F/m**.
+
+11. **A** = Area (the area of the junction through which the electric field passes)  
+    - Measured in **square meters (m²)**.
+
+12. **d** = Thickness of the insulating barrier (the thickness of the dielectric layer between the superconducting electrodes)  
+    - Measured in **meters (m)**.
+
+---
+
+## **Qubit Transition Frequency (f = (E_1 - E_0) / h)**
+13. **f** = Transition frequency (the frequency at which the qubit transitions between the ground and excited states)  
+    - Measured in **Hertz (Hz)**.
+
+14. **E_1** = Energy of the excited state (the energy associated with the qubit in the excited state)  
+    - Measured in **Joules (J)**.
+
+15. **E_0** = Energy of the ground state (the energy associated with the qubit in the ground state)  
+    - Measured in **Joules (J)**.
+
+16. **h** = Planck’s constant (the fundamental constant in quantum mechanics)  
+    - **h ≈ 6.626 x 10⁻³⁴ J·s**.
+
+---
+
+## **Rabi Frequency (Ω = (2 * π * f) * A)**
+17. **Ω** = Rabi frequency (the frequency of oscillations between the |0⟩ and |1⟩ states of the qubit)  
+    - Measured in **Hertz (Hz)**.
+
+18. **A** = Amplitude (the strength of the external microwave field driving the qubit transition)  
+    - Measured in **Arbitrary units (AU)** or **Amperes (A)**.
+
+---
+
+## **Josephson Frequency (f_J = (I / I_0) * f_0)**
+19. **f_J** = Josephson junction frequency (the frequency at which the Josephson junction oscillates)  
+    - Measured in **Hertz (Hz)**.
+
+20. **I** = Applied current (the current applied to the Josephson junction)  
+    - Measured in **Amperes (A)**.
+
+21. **I_0** = Critical current (the maximum supercurrent for the junction)  
+    - Measured in **Amperes (A)**.
+
+22. **f_0** = Characteristic frequency of the junction (the natural frequency of oscillation)  
+    - Measured in **Hertz (Hz)**.
+
+---
+
+## **Temperature Dependence of Superconductivity (R(T) = R(0) * (1 - (T / T_c)²))**
+23. **R(T)** = Resistance at temperature T (the resistance of the material at temperature T)  
+    - Measured in **Ohms (Ω)**.
+
+24. **R(0)** = Resistance at absolute zero (the resistance of the material at 0 K)  
+    - Measured in **Ohms (Ω)**.
+
+25. **T** = Temperature (the temperature of the material)  
+    - Measured in **Kelvin (K)**.
+
+26. **T_c** = Critical temperature (the temperature below which the material becomes superconducting)  
+    - Measured in **Kelvin (K)**.
+
+---
+
+## **Superconducting Qubit Decoherence Time (T_2 = (T_1 * T_2) / (T_1 + T_2))**
+27. **T_2** = Decoherence time (the time it takes for the qubit's superposition state to decay)  
+    - Measured in **seconds (s)**.
+
+28. **T_1** = Relaxation time (the time it takes for the qubit to relax to the ground state after excitation)  
+    - Measured in **seconds (s)**.
+
+---
+
+# **End of Variable Definitions**
