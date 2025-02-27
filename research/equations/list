@@ -1,0 +1,81 @@
+# Superconducting Quantum Processor: Essential Equations & Their Uses  
+
+## **1. Superconducting Physics**  
+### **London Equations (Superconductivity Conditions)**  
+- **Equation:**  
+  ∇ × J = - (nₛe²/m) E  
+- **Use:** Describes how superconducting current responds to an electric field.  
+
+### **BCS Theory (Cooper Pair Energy Gap)**  
+- **Equation:**  
+  Δ = 1.76 k_B T_c  
+- **Use:** Determines the superconducting energy gap at critical temperature (T_c).  
+
+---
+
+## **2. Josephson Junction Equations**  
+### **Josephson Current Equation**  
+- **Equation:**  
+  I = I_c sin(φ)  
+- **Use:** Defines the current across a Josephson junction, essential for qubit operation.  
+
+### **Josephson Voltage Equation**  
+- **Equation:**  
+  V = (ħ/2e) (dφ/dt)  
+- **Use:** Relates the voltage across the junction to the time derivative of phase difference.  
+
+### **Josephson Energy**  
+- **Equation:**  
+  E_J = (ħ I_c) / (2e)  
+- **Use:** Defines the energy associated with the Josephson junction, crucial for qubit design.  
+
+---
+
+## **3. Qubit Energy Levels & Hamiltonians**  
+### **Quantum Harmonic Oscillator Hamiltonian**  
+- **Equation:**  
+  H = (p² / 2m) + (1/2) m ω² x²  
+- **Use:** Models the energy levels of superconducting qubits.  
+
+### **Transmon Qubit Hamiltonian**  
+- **Equation:**  
+  H = 4E_C (n - n_g)² - E_J cos(φ)  
+- **Use:** Governs the energy states of a transmon qubit.  
+
+### **Charge Energy & Josephson Energy**  
+- **Charge Energy Equation:**  
+  E_C = e² / (2C)  
+- **Josephson Energy Equation:**  
+  E_J = (ħ I_c) / (2e)  
+- **Use:** Defines the energy scales for qubit operation (capacitance C and Josephson coupling).  
+
+---
+
+## **4. Qubit Control & Readout**  
+### **Rabi Oscillations (Qubit State Transitions)**  
+- **Equation:**  
+  P(t) = sin²(Ωt / 2)  
+- **Use:** Describes the probability of a qubit transitioning between states under an external drive.  
+
+### **Decoherence & Relaxation (T₁ & T₂ Times)**  
+- **Relaxation Equation (T₁ time):**  
+  P(t) = e^(-t/T₁)  
+- **Dephasing Equation (T₂ time):**  
+  C(t) = e^(-t/T₂)  
+- **Use:** Defines qubit relaxation and dephasing times, crucial for error correction.  
+
+---
+
+## **5. Quantum Gates & Computation**  
+### **Bloch Sphere Representation**  
+- **Equation:**  
+  |ψ⟩ = cos(θ/2) |0⟩ + e^(iφ) sin(θ/2) |1⟩  
+- **Use:** Describes a qubit’s state on the Bloch sphere.  
+
+### **Single-Qubit Rotation (X, Y, Z Gates)**  
+- **Equation:**  
+  Rₙ(θ) = e^(-i (θ/2) n ⋅ σ)  
+- **Use:** Defines unitary rotations for quantum gates.  
+
+### **Two-Qubit Entanglement (CNOT Gate)**  
+- **Equation (Matrix Form):**  
