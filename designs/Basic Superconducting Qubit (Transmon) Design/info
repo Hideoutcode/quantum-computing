@@ -1,0 +1,9 @@
+-
+**
+A transmon qubit is one of the most widely used superconducting qubits. It consists of a Josephson junction, 
+capacitor, and superconducting loop to create a nonlinear quantum circuit.
+
+
+The Josephson junction provides nonlinearity, allowing for well-defined energy levels.
+The capacitance acts as a shunt to reduce charge noise, increasing coherence times.
+The qubit frequency is controlled by E_J (Josephson energy) and E_C (charging energy).
