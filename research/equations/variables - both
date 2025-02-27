@@ -1,0 +1,64 @@
+# Superconducting Quantum Processor: Variable Definitions  
+
+## **Fundamental Constants**  
+- **ħ** = Reduced Planck’s constant (ħ = h / 2π ≈ 1.054 × 10⁻³⁴ J·s)  
+- **e** = Elementary charge (≈ 1.602 × 10⁻¹⁹ C)  
+- **k_B** = Boltzmann constant (≈ 1.381 × 10⁻²³ J/K)  
+
+---
+
+## **Superconducting Physics Variables**  
+- **J** = Supercurrent density (A/m²)  
+- **E** = Electric field (V/m)  
+- **nₛ** = Density of superconducting charge carriers (m⁻³)  
+- **m** = Electron mass (≈ 9.109 × 10⁻³¹ kg)  
+- **Δ** = Superconducting energy gap (Joules or eV)  
+- **T_c** = Critical temperature for superconductivity (Kelvin)  
+
+---
+
+## **Josephson Junction Variables**  
+- **I** = Supercurrent flowing through the junction (A)  
+- **I_c** = Critical current of the Josephson junction (A)  
+- **φ** = Phase difference across the Josephson junction (radians)  
+- **V** = Voltage across the Josephson junction (V)  
+- **E_J** = Josephson energy (Joules)  
+
+---
+
+## **Qubit & Circuit Variables**  
+- **H** = Hamiltonian (Energy operator, Joules)  
+- **p** = Momentum operator (kg·m/s)  
+- **m** = Mass of particle (kg)  
+- **ω** = Angular frequency of the oscillator (rad/s)  
+- **x** = Position of the particle (m)  
+- **E_C** = Charging energy (Joules)  
+- **C** = Capacitance (Farads)  
+- **n** = Number of Cooper pairs on the island (dimensionless)  
+- **n_g** = Gate charge (dimensionless)  
+
+---
+
+## **Qubit Control & Readout Variables**  
+- **Ω** = Rabi frequency (Hz)  
+- **t** = Time (seconds)  
+- **T₁** = Energy relaxation time (seconds)  
+- **T₂** = Decoherence time (seconds)  
+
+---
+
+## **Quantum Gates & Computation Variables**  
+- **ψ** = Qubit wavefunction  
+- **θ** = Rotation angle on the Bloch sphere (radians)  
+- **φ** = Phase shift (radians)  
+- **σ** = Pauli matrices (X, Y, Z)  
+
+---
+
+## **Quantum Error Correction Variables**  
+- **|0_L⟩, |1_L⟩** = Logical qubit states  
+- **S_X, S_Z** = Stabilizer operators in surface code  
+
+---
+
+# **End of List**
