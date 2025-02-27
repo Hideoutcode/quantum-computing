@@ -1,0 +1,6 @@
+Qubits need to be controlled and measured using microwave pulses and readout resonators.
+
+
+Each qubit is connected to a readout resonator.
+A microwave pulse excites the resonator, and the frequency shift is used to determine the qubit’s state.
+Classical electronics are used to generate control pulses and readout signals.
