@@ -1,0 +1,7 @@
+Qubits need to interact to perform quantum logic operations. This is done by coupling two transmon qubits using a t
+unable coupler (another Josephson junction or resonator).
+
+
+The coupler allows the qubits to exchange information.
+By adjusting the frequency of the coupler, we can turn interactions on or off, enabling quantum gates.
+This is used for CNOT gates and entanglement generation.
