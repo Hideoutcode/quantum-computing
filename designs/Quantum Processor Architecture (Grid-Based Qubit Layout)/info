@@ -1,0 +1,10 @@
+A scalable quantum processor is built using a 2D grid of qubits, each connected via resonators or couplers.
+
+
+Q1, Q2, Q3, etc. = Transmon Qubits
+
+C1, C2, etc. = Couplers (Tunable Resonators)
+
+X = Cross-resonance points for multi-qubit interactions
+
+This design ensures modular scalability and efficient qubit interactions.
