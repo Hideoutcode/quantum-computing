@@ -1,0 +1,4 @@
+   Qubit 1      ┌──────┐      Qubit 2
+   ┌───────┐    │ Coupler │    ┌───────┐
+   │Transmon│────│(Resonator)│────│Transmon│
+   └───────┘    └──────┘    └───────┘
